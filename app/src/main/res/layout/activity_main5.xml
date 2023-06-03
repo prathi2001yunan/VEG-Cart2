@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D0E6D1"
+
+    app:layoutDescription="@xml/activity_main5_scene2"
+    tools:context=".MainActivity5">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="232dp"
+        android:layout_height="247dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="183dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="448dp"
+        android:rotationX="-94"
+        android:src="@drawable/baseline_shopping_cart_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="202dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="193dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginBottom="273dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="VEG CART"
+        android:textAlignment="center"
+        android:textColor="#111312"
+        android:textSize="44sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="1.0">
+
+    </TextView>
+</androidx.constraintlayout.motion.widget.MotionLayout>
